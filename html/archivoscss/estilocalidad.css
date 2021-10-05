@@ -1,0 +1,87 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(21, 56, 2);
+    font: 1.2rem;
+    line-height: 1.4em; 
+    background: rgb(211, 218, 219);
+}
+
+h1{
+font-size: 2rem;
+line-height: 1.3em; /*espacio entre la lineas del texto*/
+
+}
+
+p{
+    margin-bottom: 1.7em;
+}
+
+.contenedor{
+    width: 85%;
+    max-width: 850px; /*maximo ancho de contendedores*/
+    margin: 0% auto;
+}
+
+.header{
+background: rgb(78, 185, 6);
+color: rgb(148, 218, 176);
+padding: 1rem 0;
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+
+}
+
+.logo-nav-contenedor{
+    display:flex;
+    justify-content: space-around; /*separa el logo y los links hacia los lados*/
+    align-items: center;
+}
+
+header a{
+    color: rgb(3, 32, 8);
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 17px;
+}
+
+.navigator ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigator ul li{
+display: inline-block;
+
+}
+
+.navigator ul li a{
+ padding: 0.5rem 1rem;
+ transition: all 0.7s linear;
+border-radius: 5px;
+}
+
+.navigator ul li a:hover{
+background: #5bd461;
+
+}
+
+.logo{
+letter-spacing: 15px;
+font-size: 1.2em;
+width: 100px;
+}
+
+.footer{
+
+    background: #a4e757;
+    padding: 0rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.main{
+padding-top: 10rem;
+}
